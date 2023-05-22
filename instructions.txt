@@ -1,0 +1,39 @@
+Sure! Here's a beginner JavaScript exercise for you:
+
+Exercise: Number Guessing Game
+
+Description:
+Create a number guessing game where the user tries to guess a randomly generated number. The program should provide feedback to the user after each guess, indicating whether their guess was too high, too low, or correct.
+
+Instructions:
+1. Generate a random number between 1 and 100 and store it in a variable.
+2. Prompt the user to enter a number as their guess.
+3. Compare the user's guess with the randomly generated number.
+4. If the guess is correct, display a congratulatory message and end the game.
+5. If the guess is too high, display a message indicating that the guess is too high and prompt the user for another guess.
+6. If the guess is too low, display a message indicating that the guess is too low and prompt the user for another guess.
+7. Repeat steps 2-6 until the user guesses the correct number.
+8. When the game ends, display the total number of guesses it took the user to find the correct answer.
+
+Example Output:
+```
+Welcome to the Number Guessing Game!
+I have chosen a random number between 1 and 100.
+Can you guess the number?
+
+Enter your guess: 50
+Too high! Try again.
+
+Enter your guess: 25
+Too low! Try again.
+
+Enter your guess: 35
+Too high! Try again.
+
+Enter your guess: 30
+Congratulations! You guessed the correct number in 4 attempts.
+```
+
+Note: You can use the `Math.random()` function to generate a random number between 0 (inclusive) and 1 (exclusive). To convert it to a number between 1 and 100, you can multiply it by 100 and then use `Math.floor()` to round it down to the nearest whole number.
+
+Feel free to ask if you have any questions or need further assistance!
